@@ -6,6 +6,15 @@
 
 ## Introduction
 This project focuses on predicting customer churn using a logistic regression model. MLflow was used for experiment tracking across four runs with different train-test splits, hyperparameters, and regularization techniques. The best model was deployed using a Flask web server.
+# Running the Server
+
+To run the Flask web server, use the following command:
+
+```bash
+python server.py
+```
+
+This will start the server and provide real-time predictions using the best model registered in MLflow. The server will check for better models in MLflow every 30 seconds.
 
 ## Dataset & Preprocessing
 - Dataset: **WA_Fn-UseC_-Telco-Customer-Churn.csv**
