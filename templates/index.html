@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Prediction</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .form-group { 
+            margin-bottom: 15px; 
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        label { 
+            display: inline-block; 
+            width: 150px;
+            font-weight: bold;
+        }
+        select, input { 
+            width: 200px; 
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button { 
+            padding: 10px 20px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .prediction { 
+            margin-top: 20px; 
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 5px;
+            text-align: center;
+        }
+        h1 {
+            color: #2e7d32;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Churn Prediction</h1>
+    <form method="post">
+        <div class="form-group">
+            <label for="SeniorCitizen">Senior Citizen:</label>
+            <select name="SeniorCitizen" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="tenure">Tenure (months):</label>
+            <input type="number" name="tenure" required min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="InternetService">Internet Service:</label>
+            <select name="InternetService" required>
+                <option value="0">DSL</option>
+                <option value="1">Fiber optic</option>
+                <option value="2">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="OnlineSecurity">Online Security:</label>
+            <select name="OnlineSecurity" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="OnlineBackup">Online Backup:</label>
+            <select name="OnlineBackup" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="DeviceProtection">Device Protection:</label>
+            <select name="DeviceProtection" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="TechSupport">Tech Support:</label>
+            <select name="TechSupport" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="StreamingTV">Streaming TV:</label>
+            <select name="StreamingTV" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="StreamingMovies">Streaming Movies:</label>
+            <select name="StreamingMovies" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                <option value="2">No internet service</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Contract">Contract:</label>
+            <select name="Contract" required>
+                <option value="0">Month-to-month</option>
+                <option value="1">One year</option>
+                <option value="2">Two year</option>
+            </select>
+        </div>
+
+        <button type="submit">Predict Churn</button>
+    </form>
+
+    {% if prediction %}
+    <div class="prediction">
+        <h2>Prediction Result:</h2>
+        <p>Will the customer churn? <strong>{{ prediction }}</strong></p>
+    </div>
+    {% endif %}
+</body>
+</html>
+            

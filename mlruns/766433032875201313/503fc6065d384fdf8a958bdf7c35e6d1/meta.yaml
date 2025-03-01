@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/503fc6065d384fdf8a958bdf7c35e6d1/artifacts
+deleted_time: 1740318556161
+end_time: 1740318370303
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: 503fc6065d384fdf8a958bdf7c35e6d1
+run_name: valuable-donkey-404
+run_uuid: 503fc6065d384fdf8a958bdf7c35e6d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318366126
+status: 3
+tags: []
+user_id: mahmo

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/c859a7c3d9cd453cb958631d95cbfc1f/artifacts
+deleted_time: 1740318173166
+end_time: 1740317949008
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: c859a7c3d9cd453cb958631d95cbfc1f
+run_name: handsome-cub-843
+run_uuid: c859a7c3d9cd453cb958631d95cbfc1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317945387
+status: 3
+tags: []
+user_id: mahmo

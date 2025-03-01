@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/35c4ba84a53d493c88717afacd7dfc75/artifacts
+deleted_time: 1740318276461
+end_time: 1740318183402
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: 35c4ba84a53d493c88717afacd7dfc75
+run_name: agreeable-stoat-220
+run_uuid: 35c4ba84a53d493c88717afacd7dfc75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318179837
+status: 3
+tags: []
+user_id: mahmo

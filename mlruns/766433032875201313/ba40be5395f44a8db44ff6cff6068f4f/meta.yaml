@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/ba40be5395f44a8db44ff6cff6068f4f/artifacts
+deleted_time: 1740318169050
+end_time: 1740317853943
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: ba40be5395f44a8db44ff6cff6068f4f
+run_name: handsome-flea-988
+run_uuid: ba40be5395f44a8db44ff6cff6068f4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317849833
+status: 3
+tags: []
+user_id: mahmo

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/0ce582c2a70942a7a94b89b38c6d57f7/artifacts
+deleted_time: 1740317850993
+end_time: 1740317310975
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: 0ce582c2a70942a7a94b89b38c6d57f7
+run_name: bouncy-bass-59
+run_uuid: 0ce582c2a70942a7a94b89b38c6d57f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317306272
+status: 3
+tags: []
+user_id: mahmo

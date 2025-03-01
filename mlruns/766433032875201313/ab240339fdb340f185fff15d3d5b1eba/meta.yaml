@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/ab240339fdb340f185fff15d3d5b1eba/artifacts
+deleted_time: 1740318314398
+end_time: 1740318270748
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: ab240339fdb340f185fff15d3d5b1eba
+run_name: likeable-cod-113
+run_uuid: ab240339fdb340f185fff15d3d5b1eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318266871
+status: 3
+tags: []
+user_id: mahmo

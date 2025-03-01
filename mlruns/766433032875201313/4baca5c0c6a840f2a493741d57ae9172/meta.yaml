@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/4baca5c0c6a840f2a493741d57ae9172/artifacts
+end_time: 1740318743207
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: active
+run_id: 4baca5c0c6a840f2a493741d57ae9172
+run_name: nebulous-lark-524
+run_uuid: 4baca5c0c6a840f2a493741d57ae9172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318739557
+status: 3
+tags: []
+user_id: mahmo

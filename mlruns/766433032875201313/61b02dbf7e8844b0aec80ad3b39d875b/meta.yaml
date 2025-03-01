@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/61b02dbf7e8844b0aec80ad3b39d875b/artifacts
+end_time: 1740318843179
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: active
+run_id: 61b02dbf7e8844b0aec80ad3b39d875b
+run_name: painted-robin-917
+run_uuid: 61b02dbf7e8844b0aec80ad3b39d875b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318839350
+status: 3
+tags: []
+user_id: mahmo

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/a3b6eb767f004ed082afb56fc9091051/artifacts
+deleted_time: 1740318556161
+end_time: 1740318320232
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: deleted
+run_id: a3b6eb767f004ed082afb56fc9091051
+run_name: bouncy-worm-773
+run_uuid: a3b6eb767f004ed082afb56fc9091051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318316258
+status: 3
+tags: []
+user_id: mahmo

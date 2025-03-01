@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mahmo/Desktop/hw/mlruns/766433032875201313/86e004c6a585423d93b7da03fc30b858/artifacts
+end_time: 1740318916444
+entry_point_name: ''
+experiment_id: '766433032875201313'
+lifecycle_stage: active
+run_id: 86e004c6a585423d93b7da03fc30b858
+run_name: tasteful-mare-735
+run_uuid: 86e004c6a585423d93b7da03fc30b858
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318912987
+status: 3
+tags: []
+user_id: mahmo
